@@ -1,0 +1,243 @@
+
+body{
+
+    margin: 0;
+}
+
+
+
+.header{
+    background-color: #e8ddd4;
+    color: #fff;
+    
+    
+}
+.header-box1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    background-color: #76573C;
+    
+}
+
+.header-logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    
+    
+}
+          
+
+/* .header-menu{
+    
+} */
+.header-ul{
+    display: flex;
+    gap: 20px;
+
+}
+.header-item {
+    list-style: none;
+}
+.header-item > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.header-headline{
+    text-align: center;
+    padding: 100px 0 80px;
+}
+.header-headerlogo{
+    font-size: 100px;
+    margin: 0;
+    
+}
+.header-text{
+    font-size: 30px;
+    margin: 10px 0 0;
+}
+/* .header-nexttext{} */
+
+
+.about{
+    background-image: url(../image/akaihana.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    
+    position: relative;
+    
+}
+.about-headline{
+    margin: 0;
+    padding: 50px 0;
+    font-size: 30px;
+}
+.about-text{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+.menu{
+    color: #333;
+    padding: 20px ;
+}
+.menu-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+.menu-card{
+    padding: 20px;
+    position: relative;
+
+    border: 1px solid #76573C;
+
+}
+.menu-card:hover{
+    background-color: #8a694f8f;
+}
+.menu-link{
+    text-decoration: none;
+    
+}
+.menu-img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+
+    
+
+}
+.menu-info{
+    
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+}
+.menu-headline{
+    color: #ac4f71;
+    margin: 0;
+}
+.menu-text{
+    color: rgb(204, 52, 82);
+    margin: 0;
+    
+    
+}
+
+.menu-cardinfo{
+    color: #333;
+    
+}
+
+.menu-botton{
+    text-align: center;
+    padding: 50px;
+
+    
+}
+.menu-botton>a{
+    text-decoration: none;
+    background-color: #76573C;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 20px;
+
+    border-radius: 20px;
+    overflow: hidden;
+    border: 3px solid #76573C;
+}
+.menu-botton>a:hover{
+    background-color: #e8ddd4;
+}
+
+
+
+
+.main-form{
+    background-color: #e8ddd4;
+    text-align: center;
+    padding: 80px 0;
+}
+.main-form-headline{
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    
+}
+.main-form-text{
+    color: #fff;
+    font-size: 20px;
+}
+                
+.menu-form-botton{
+    margin: 100px 0 0;
+
+}
+.menu-form-botton>a{
+    text-decoration: none;
+    background-color: #76573C;
+    color: #fff;
+    border: 3px solid #76573C;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 20px;
+    
+}
+.menu-form-botton>a:hover{
+    background-color: #e8ddd4;
+}
+
+
+.footer{
+    background-color: #76573C;
+    color: #fff;
+    padding: 30px ;
+
+}
+.footer-wrap{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    
+}
+
+
+/* .footer-box{}
+.footer-company{}
+.footer-text{}
+
+.footer-box{}
+.footer-headline{} */
+
+.footer-list{
+    padding-left: 10px;
+}
+.footer-item{
+    list-style: square;
+}
+.footer-item>a{
+    text-decoration: none;
+    color: #fff;
+}
+small{
+    display: block;
+    text-align: center;
+    padding: 30px 0 5px;
+}
+                      
